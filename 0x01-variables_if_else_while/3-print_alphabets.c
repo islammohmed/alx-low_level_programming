@@ -8,12 +8,11 @@
 */
 int main(void)
 {
-char i;
+char i, s;
 for (i = 'a' ; i <= 'z'; i++)
 {
 putchar(i);
 }
-char s;
 for (s = 'A' ; s <= 'Z'; s++)
 {
 putchar(s);
