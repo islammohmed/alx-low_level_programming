@@ -15,10 +15,10 @@ for (i = 0; i < n; i++)
 int j;
 for (j = 0; j < i; j++)
 {
-printf(" ");
+_putchar(" ");
 }
-printf("\\");
-printf("\n");
+_putchar("\\");
+_putchar("\n");
 }
 }
 printf("\n");
