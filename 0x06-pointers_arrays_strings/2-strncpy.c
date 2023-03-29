@@ -12,7 +12,12 @@ int c, c2;
 c = 0;
 while (dest[c])
 c++;
-for (c2 = 0; c2 < n ; c2++)
+for (c2 = 0; c2 < n && src[c2] != '\0'; c2++)
 dest[c2] = src[c2];
+while (c2 < n)
+{
+dest[c2] = '\0';
+c2++;
+}
 return (dest);
 }
