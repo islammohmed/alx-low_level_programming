@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * leet - capitalizes all words in a string
  * @c: string
@@ -8,7 +7,7 @@
 char *leet(char *c)
 {
 int *cp = c;
-int i;
+unsigned int i;
 char key[] = {'A', 'E', 'O', 'T', 'L'};
 int value[] = {4, 3, 0, 7, 1};
 while (*c)
